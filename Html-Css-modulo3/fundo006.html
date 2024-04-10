@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de imagem</title>
+    <title>Fundo Fixo de Tela</title>
     <style>
         body{
-            height: 100vh;
+           /* height: 100vh;
             background-color: black;
             background-image: url(ex-022/imagens/wallpaper002.jpg);
             background-position: center center;
-            background-repeat: no-repeat;
+            background-repeat:no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*shorthands
+            color>image>position>repeat>size>attatchement*/
+            background: black url(ex-022/imagens/wallpaper002.jpg) center center no-repeat 
+            fixed;
+            background-size: cover;
+            
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width:400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,6 +37,8 @@
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi dolorum ea maiores velit accusamus eveniet? Ratione, tenetur sequi voluptatibus, placeat illo necessitatibus, aspernatur esse id quo dignissimos aut nam sapiente.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt cum itaque sint tempora. Rerum, dicta! Eum, quod ipsam! Consequuntur reiciendis deserunt quo optio ipsam distinctio officiis eaque provident minima officia!</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae maxime exercitationem magni! Voluptas nihil qui quis sed exercitationem. Qui nostrum rem nisi nemo assumenda modi laudantium et eius eum magnam!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ullam libero quod, est tempore cum voluptates ad cupiditate earum expedita! Maxime consectetur consequatur sed officia, vero cumque qui molestias? Dicta.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos ea, commodi omnis sed deleniti reiciendis minima enim accusamus porro, quam, quaerat magnam pariatur quia ipsa nam est? Voluptatem, deserunt eveniet?</p>
     </main>
     
 </body>
