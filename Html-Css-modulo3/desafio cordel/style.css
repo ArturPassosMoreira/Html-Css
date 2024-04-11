@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: azure;
+    border: 1px solid black;
+    padding: 8px;
+}
+header{
+    background-color: black;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 8px;
+    margin: -8px;
+    
+}
